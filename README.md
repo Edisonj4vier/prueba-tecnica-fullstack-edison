@@ -81,7 +81,16 @@ prueba-tecnica-fullstack-edison/
 
 ## ⚙️ Instalación y Ejecución
 
-### Requisitos Previos
+### 📦 Clonar el Repositorio
+
+**Obtener el código fuente:**
+
+```powershell
+git clone https://github.com/Edisonj4vier/prueba-tecnica-fullstack-edison.git
+cd prueba-tecnica-fullstack-edison
+```
+
+### 📋 Requisitos Previos
 
 Asegúrate de tener instaladas las siguientes herramientas:
 
@@ -101,16 +110,12 @@ cd backend/product-manager
 
 ```powershell
 ./mvnw clean install
-# o en Windows
-mvnw.cmd clean install
 ```
 
 3. **Ejecutar la aplicación:**
 
 ```powershell
 ./mvnw spring-boot:run
-# o en Windows
-mvnw.cmd spring-boot:run
 ```
 
 ✅ El servidor estará disponible en `http://localhost:8080`
@@ -242,6 +247,7 @@ SELECT COUNT(*) as total_products,
        AVG(price) as avg_price
 FROM PRODUCTS;
 ```
+
 ## 📝 Detalles Técnicos
 
 ### 🔧 Backend (Spring Boot)
@@ -276,7 +282,7 @@ FROM PRODUCTS;
 - **Form Handling**: Validación y manejo reactivo de formularios
 - **Error Boundaries**: Manejo robusto de errores de red
 - **CSS Modular**: Estilos scoped por componente
-                   |
+  |
 
 ## 👨‍💻 Autor
 
@@ -285,4 +291,3 @@ FROM PRODUCTS;
 🔗 [GitHub Profile](https://github.com/tu-usuario)
 
 ---
-
