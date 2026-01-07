@@ -1,6 +1,6 @@
 # 📦 Product Manager - Full Stack Application
 
-Aplicación Full-Stack para la gestión completa de productos, desarrollada con Spring Boot 4.0.1 en el backend y Vue 3 con TypeScript en el frontend. Incluye funcionalidades CRUD, validación robusta y una interfaz de usuario moderna y responsive.
+Aplicación Full-Stack para la gestión de productos, desarrollada con Spring Boot 4.0.1 en el backend y Vue 3 con TypeScript en el frontend. Incluye funcionalidades CRUD, validación robusta y una interfaz de usuario moderna y responsive.
 
 ## 🚀 Tecnologías Utilizadas
 
